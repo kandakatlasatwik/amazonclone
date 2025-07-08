@@ -21,6 +21,8 @@ i {
 header {
     background-color: black;
     display: flex;
+    position: fixed;
+    width: 1250px;
 }
 
 .container {
@@ -82,18 +84,34 @@ body {
     display: grid;
     grid-template-rows: repeat(4, 250px);
     grid-template-columns: repeat(4, 250px);
-    gap: 40px;
+    gap: 80px;
     justify-content: space-evenly;
 }
 
 .box {
     color: black;
     background-color: white;
-    border-radius: 5px;
     box-shadow: 10%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
+    font-family: Amazon ember, sans-serif, Arial;
+    padding: 20px;
+    word-spacing: 1px;
+    font-size: 21px;
+    height: 250px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box:hover {
+    transition: transform 0.7s;
+    transform: scale(1.05);
+}
+
+body {
+    background: linear-gradient(to bottom, #39a4f5 0%, #39a4f5 40%, white 60%, #646363f6 100%);
 }
 
 .grocery {
@@ -103,13 +121,20 @@ body {
     grid-template-rows: repeat(2, 100px);
     grid-template-columns: repeat(2, 100px);
     gap: 10px;
+    margin-top: 10px;
 }
 
-span {
-    margin-left: 20px;
+.extraspace {
+    height: 70px;
 }
 
-.box {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 100;
+.dumbel {
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+}
+
+.dumbel img {
+    border: 1px solid black;
+    border-radius: 10%;
 }
