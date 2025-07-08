@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+p {
+    color: white;
+}
+
+.image1 {
+    height: 50px;
+    width: 150px;
+    margin: 5px 0px 5px 0px;
+}
+
+i {
+    color: white;
+}
+
+header {
+    background-color: black;
+    display: flex;
+}
+
+.container {
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.search {
+    height: 45px;
+    width: 400px;
+}
+
+.fa-magnifying-glass {
+    background-color: rgb(243, 178, 59);
+    color: black;
+    padding: 15px;
+    border-radius: 4%;
+}
+
+.lan {
+    display: flex;
+    height: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.lan .india {
+    padding-bottom: 40px;
+}
+
+.india {
+    width: 20px;
+    height: 20px;
+    margin-top: 50px;
+}
+
+.sec-line {
+    background-color: rgb(64, 66, 75);
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.fa-bars {
+    background-color: rgb(64, 66, 75);
+}
+
+pre {
+    color: white;
+}
+
+body {
+    background-color: rgb(0, 128, 255);
+}
+
+.fourgrid {
+    display: grid;
+    grid-template-rows: repeat(4, 250px);
+    grid-template-columns: repeat(4, 250px);
+    gap: 40px;
+    justify-content: space-evenly;
+}
+
+.box {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.grocery {
+    height: 70px;
+    width: 70px;
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(2, 100px);
+    gap: 10px;
+}
+
+span {
+    margin-left: 20px;
+}
+
+.box {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
