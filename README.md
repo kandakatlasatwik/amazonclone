@@ -4,7 +4,7 @@ This is a fully responsive front-end clone of the Amazon e-commerce website, bui
 
 hosting : https://4bhtpnmg-5500.inc1.devtunnels.ms/
 
-click here: delicate-tulumba-8d6600.netlify.app
+click here: https://delicate-tulumba-8d6600.netlify.app/
 
 - 🧭 Responsive navigation bar
 - 🔍 Search functionality
