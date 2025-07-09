@@ -1,140 +1,222 @@
-* {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-}
-
-p {
-    color: white;
-}
-
-.image1 {
-    height: 50px;
-    width: 150px;
-    margin: 5px 0px 5px 0px;
-}
-
-i {
-    color: white;
-}
-
-header {
-    background-color: black;
-    display: flex;
-    position: fixed;
-    width: 1250px;
-}
-
-.container {
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
-}
-
-.search {
-    height: 45px;
-    width: 400px;
-}
-
-.fa-magnifying-glass {
-    background-color: rgb(243, 178, 59);
-    color: black;
-    padding: 15px;
-    border-radius: 4%;
-}
-
-.lan {
-    display: flex;
-    height: 10px;
-    align-items: center;
-    text-align: center;
-}
-
-.lan .india {
-    padding-bottom: 40px;
-}
-
-.india {
-    width: 20px;
-    height: 20px;
-    margin-top: 50px;
-}
-
-.sec-line {
-    background-color: rgb(64, 66, 75);
-    height: 40px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-}
-
-.fa-bars {
-    background-color: rgb(64, 66, 75);
-}
-
-pre {
-    color: white;
-}
-
-body {
-    background-color: rgb(0, 128, 255);
-}
-
-.fourgrid {
-    display: grid;
-    grid-template-rows: repeat(4, 250px);
-    grid-template-columns: repeat(4, 250px);
-    gap: 80px;
-    justify-content: space-evenly;
-}
-
-.box {
-    color: black;
-    background-color: white;
-    box-shadow: 10%;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-    font-family: Amazon ember, sans-serif, Arial;
-    padding: 20px;
-    word-spacing: 1px;
-    font-size: 21px;
-    height: 250px;
-    margin-left: 5px;
-    margin-right: 5px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.box:hover {
-    transition: transform 0.7s;
-    transform: scale(1.05);
-}
-
-body {
-    background: linear-gradient(to bottom, #39a4f5 0%, #39a4f5 40%, white 60%, #646363f6 100%);
-}
-
-.grocery {
-    height: 70px;
-    width: 70px;
-    display: grid;
-    grid-template-rows: repeat(2, 100px);
-    grid-template-columns: repeat(2, 100px);
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.extraspace {
-    height: 70px;
-}
-
-.dumbel {
-    display: flex;
-    height: 40px;
-    justify-content: space-evenly;
-}
-
-.dumbel img {
-    border: 1px solid black;
-    border-radius: 10%;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     max-width: 100%;
+ }
+ 
+ * :hover {
+     border: 1px solid white;
+     cursor: pointer;
+ }
+ 
+ body {
+     background: linear-gradient(to bottom, #39a4f5 0%, #39a4f5 40%, white 60%, #646363f6 100%);
+ }
+ 
+ p {
+     color: white;
+ }
+ 
+ .image1 {
+     height: 50px;
+     width: 150px;
+     margin: 5px 0px 5px 0px;
+ }
+ 
+ i {
+     color: white;
+ }
+ 
+ header {
+     background-color: black;
+     display: flex;
+     position: fixed;
+     width: 100%;
+ }
+ 
+ .container {
+     align-items: center;
+     justify-content: space-between;
+     padding: 5px;
+ }
+ 
+ .search {
+     height: 45px;
+     width: 400px;
+ }
+ 
+ .fa-magnifying-glass {
+     background-color: rgb(243, 178, 59);
+     color: black;
+     padding: 15px;
+     border-radius: 4%;
+ }
+ 
+ .lan {
+     display: flex;
+     height: 10px;
+     align-items: center;
+     text-align: center;
+ }
+ 
+ .lan .india {
+     padding-bottom: 40px;
+ }
+ 
+ .india {
+     width: 20px;
+     height: 20px;
+     margin-top: 50px;
+ }
+ 
+ .sec-line {
+     background-color: rgb(64, 66, 75);
+     height: 40px;
+     display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+ 
+ .fa-bars {
+     background-color: rgb(64, 66, 75);
+ }
+ 
+ pre {
+     color: white;
+ }
+ 
+ .fourgrid {
+     display: grid;
+     grid-template-rows: repeat(2, 300px);
+     grid-template-columns: repeat(4, 250px);
+     gap: 80px;
+     justify-content: space-evenly;
+ }
+ 
+ .box {
+     color: black;
+     background-color: white;
+     box-shadow: 10%;
+     align-items: center;
+     justify-content: space-evenly;
+     text-align: center;
+     font-family: Amazon ember, sans-serif, Arial;
+     padding: 20px;
+     word-spacing: 1px;
+     font-size: 21px;
+     height: 250px;
+     margin-left: 5px;
+     margin-right: 5px;
+     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+ }
+ 
+ .box:hover {
+     transition: transform 0.7s;
+     transform: scale(1.05);
+ }
+ 
+ .grocery {
+     height: 70px;
+     width: 70px;
+     display: grid;
+     grid-template-rows: repeat(2, 100px);
+     grid-template-columns: repeat(2, 100px);
+     gap: 10px;
+     margin-top: 10px;
+ }
+ 
+ .extraspace {
+     height: 75px;
+ }
+ 
+ .dumbel {
+     display: flex;
+     height: 40px;
+     justify-content: space-evenly;
+ }
+ 
+ .dumbel img {
+     border: 1px solid black;
+     border-radius: 10%;
+ }
+ 
+ .bestseller {
+     color: black;
+     display: flex;
+     max-width: 100%;
+     justify-content: space-around;
+     align-items: center;
+     padding: 10px;
+ }
+ 
+ .bestseller img {
+     height: 150px;
+     width: 120px
+ }
+ 
+ #outer {
+     background-color: white;
+     text-align: left;
+     padding-top: 10px;
+     padding-left: 10px;
+     margin: 10px;
+ }
+ 
+ .signin {
+     background-color: rgb(255, 255, 255);
+     text-align: center;
+ }
+ 
+ .signin button {
+     background-color: rgb(246, 224, 23);
+     width: 150px;
+     height: 40px;
+     border-radius: 20px;
+     border: 1px solid rgb(246, 224, 23);
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .footerup {
+     color: white;
+     background-color: #232f3e;
+     display: flex;
+     height: 400px;
+     text-align: center;
+     justify-content: space-evenly;
+     padding-top: 30px;
+ }
+ 
+ .footerup a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .footerup div {
+     text-align: left;
+ }
+ 
+ .footerup div p {
+     margin-top: 15px;
+     font-stretch: condensed;
+ }
+ 
+ .inner {
+     background-color: black;
+     display: grid;
+     justify-content: space-evenly;
+     text-align: center;
+     align-items: center;
+     height: 500px;
+     width: 100%;
+ }
+ 
+ .contain {
+     background-color: rgb(12, 17, 72);
+     color: white;
+     display: grid;
+     grid-template-columns: 20px 20px 20px 20px;
+     grid-template-rows: 20px 20px;
+     justify-content: space-around;
+ }
