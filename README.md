@@ -2,6 +2,8 @@
 
 This is a fully responsive front-end clone of the Amazon e-commerce website, built using HTML, CSS, and JavaScript. The project replicates key features of the original Amazon homepage, including:
 
+hosting : https://4bhtpnmg-5500.inc1.devtunnels.ms/
+
 - 🧭 Responsive navigation bar
 - 🔍 Search functionality
 - 🛒 Cart icon and item counter
